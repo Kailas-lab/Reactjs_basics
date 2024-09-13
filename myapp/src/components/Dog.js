@@ -1,9 +1,15 @@
 function Dog(props){
 
-    const {brand}=props
+    //const {brand,Color}=props
+      //const brand="german"
 
-    //const brand="german"
-    const text=`hi am ${brand} dog!`  //template string for dynamic
+    //create obj for props
+    const {DogInfo} = props;
+    const {brand,Color} = DogInfo;
+
+
+
+    const text=`hi am ${Color} ${brand} dog!`  //template string for dynamic
 
     return (
       <h2>{text}</h2>
