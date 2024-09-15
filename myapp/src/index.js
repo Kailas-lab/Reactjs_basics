@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Dog from './components/Dog';
 import Cat from './components/Cat';
+import FavColor from './components/FavColor';
+import Classs from './components/Class';
+//import Header from './components/Header';
 
 
 
@@ -13,8 +16,11 @@ import Cat from './components/Cat';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Cat />
+     {/* <App /> */}
+    {/* <Cat /> */}
+    {/* <Header /> */}
+    <FavColor></FavColor>
+    <Classs/>
   </React.StrictMode>
 );
 
