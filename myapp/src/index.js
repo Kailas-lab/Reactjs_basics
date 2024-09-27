@@ -7,20 +7,22 @@ import Dog from './components/Dog';
 import Cat from './components/Cat';
 import FavColor from './components/FavColor';
 import Classs from './components/Class';
+import Scooter from './components/Scooter';
 //import Header from './components/Header';
-
-
-
-
+//import Counter from './components/counter'; // Correct casing
+import Example from './components/Counter'; // Ensure Example is properly exported from the file
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     {/* <App /> */}
+    {/* <App /> */}
     {/* <Cat /> */}
     {/* <Header /> */}
-    <FavColor></FavColor>
-    <Classs/>
+    <FavColor />
+    <Classs />
+    <Scooter />
+    <Counter />
+    <Example />
   </React.StrictMode>
 );
 
