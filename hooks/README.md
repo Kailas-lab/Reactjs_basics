@@ -46,6 +46,7 @@ function Counter() {
 }
 
 export default Counter;
+
 Explanation:
 
 const [count, setCount] = useState(0); initializes the count state to 0.
@@ -103,6 +104,7 @@ function Logger() {
 }
 
 export default Logger;
+
 Explanation:
 
 In this example, useEffect runs every time the component renders (including after every update).
@@ -158,6 +160,7 @@ const useCounter = (initialValue = 0) => {
 };
 
 export default useCounter;
+
 Using the Custom Hook in a Component:
 
 Now, you can use the useCounter hook in any component.
@@ -182,6 +185,7 @@ const CounterComponent = () => {
 };
 
 export default CounterComponent;
+
 Using the CounterComponent in Your App:
 
 Finally, you can use the CounterComponent in your main application file.
@@ -202,6 +206,7 @@ const App = () => {
 };
 
 export default App;
+
 Explanation:
 Custom Hook (useCounter): This hook manages a counter state. It initializes the counter to an initial value, and provides functions to increment, decrement, and reset the counter.
 Component (CounterComponent): This component utilizes the useCounter hook to display the current count and provide buttons to modify the count.
